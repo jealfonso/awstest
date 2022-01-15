@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: eurekaTest
+  cloud:
+    services:
+      registrationMethod: route

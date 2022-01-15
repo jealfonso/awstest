@@ -1,0 +1,8 @@
+applications:
+- name: eurekaTest
+  disk_quota: 1G
+  instances: 1
+  memory: 650M
+  path: /Users/alexandergraham/Documents/eurekaTest/target/eurekaTest-0.0.1-SNAPSHOT.jar
+  env:
+    BP_DEBUG: true
